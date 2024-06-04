@@ -15,6 +15,13 @@
 .websiteName {
   font-size: 2rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.websiteName img {
+  height: 50px;
 }
 
 /* navigation links */

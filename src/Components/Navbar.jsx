@@ -4,12 +4,15 @@ function Navbar() {
   return (
     <>
       <header className={styles.header}>
-        <h1 className={styles.websiteName}>Ray-dev</h1>
+        <a href="/" className={styles.websiteName}>
+          <img src="/icon.svg" alt="favicon" />
+          Ray-dev
+        </a>
         <nav className={styles.nav}>
-          <a href="#">Home</a>
-          <a href="#">Projects</a>
-          <a href="#">Others</a>
-          <a href="#">About</a>
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#others">Others</a>
+          <a href="#about">About</a>
         </nav>
         <div className={styles.action}>
           <button>Click me</button>
